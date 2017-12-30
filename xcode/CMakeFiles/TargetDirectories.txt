@@ -1,0 +1,4 @@
+/Users/thl/work/slam/slam_mono/xcode/CMakeFiles/slam_mono.dir
+/Users/thl/work/slam/slam_mono/xcode/CMakeFiles/dso.dir
+/Users/thl/work/slam/slam_mono/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/thl/work/slam/slam_mono/xcode/CMakeFiles/ZERO_CHECK.dir
