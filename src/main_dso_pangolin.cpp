@@ -362,20 +362,14 @@ int main( int argc, char** argv )
 	// hook crtl+C.
 	boost::thread exThread = boost::thread(exitThread);
 
-
 	ImageFolderReader* reader = new ImageFolderReader(source,calib, gammaCalib, vignette);
 	reader->setGlobalCalibration();
-
-
 
 	if(setting_photometricCalibration > 0 && reader->getPhotometricGamma() == 0)
 	{
 		printf("ERROR: dont't have photometric calibation. Need to use commandline options mode=1 or mode=2 ");
 		exit(1);
 	}
-
-
-
 
     int lstart=start;
     int lend = end;
